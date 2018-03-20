@@ -1,0 +1,93 @@
+/*清除样式*/
+button{
+    border-style: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 7px;
+
+}
+
+ul{
+    list-style: none;
+}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;/*ie/7/6*/
+}
+/*清除元素默认被选择后呈现蓝色*/
+body{
+    -webkit-user-select:none;
+}
+
+canvas {
+    border: none;
+}
+/*蒙版样式*/
+#test{
+      display: block;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      z-index: 214;
+      cursor: crosshair;
+      background-color: rgba(0, 0, 0, 0.1);
+      box-sizing: content-box;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+}
+/*裁剪框样式*/
+#test1{
+      border: 2px dashed #fff;
+      position: absolute;
+      cursor: move;
+      z-index: 999;
+      display: none;
+      background: rgba(0,0,0,0);
+      box-sizing: content-box;
+}
+/*承载button的盒子*/
+#bt{
+    position: absolute;
+    bottom: -65px;
+    right: -5px;
+}
+/*初始化剪去部分*/
+#screenTop{
+    top: 0;
+    left: 0;
+}
+#screenRight{
+    top: 0;
+    right: 0;
+}
+#screenBottom{
+    right: 0;
+    bottom: 0;
+}
+#screenLeft{
+    bottom: 0;
+    left: 0;
+}
+.same{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor:auto;
+}
+/*确定取消按钮样式*/
+ul li{
+    float: left;
+}
+span img{
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 14px;
+    width: 14px;
+}
