@@ -182,27 +182,28 @@ img.onload = function() {
     context.drawImage(img, leftTop.x, leftTop.y, cw, ch, 0, 0, cw, ch);
 
     img.src = canvas.toDataURL('image/png');
-    window.open(img.src);
+    // window.open(img.src);
+    // console.log(img.src);
     document.body.appendChild(canvas);
-
     };
 }
 
 // 选中之后的点击事件
 var choose =document.getElementById('choose');
 choose.onclick =function() {
-
     cropArea.style.border = 'none';
     setTimeout(function() {
     chrome.extension.sendRequest({greeting: "hello"}, function(response) {
     drawcrop(response.pic);
-    cropArea.style.border = '2px dashed #fff'; 
-      console.log(1);
+    console.log(response.pic);
+    cropArea.style.border = '2px dashed #fff';
     });
 
-    chrome.runtime.sendMessage([crop], function() {}); //是croparea还是crop
+    chrome.runtime.sendMessage( {src:response.pic}, function(e) {
+        console.log(e);
+    }); //是croparea还是crop
     parent.postMessage('removeRegion', '*');
-}, 50);
+},50);
 }
 
 var cancel = document.getElementById('cancel');

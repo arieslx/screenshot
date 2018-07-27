@@ -12,7 +12,9 @@ var screenshot = '',
             context.drawImage(this, crop.x1, crop.y1, crop.width, crop.height, 0, 0, crop.width, crop.height);
             screenshot = canvas.toDataURL('image/png');
             window.open('preview.html');
+            console.log(crop);
         };
+
 
         chrome.tabs.captureVisibleTab({format: 'png'}, function(res) {
             img.src = res;
