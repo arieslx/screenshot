@@ -170,7 +170,7 @@ document.body.onmouseup = function(event){
 
 drawcrop = function(data){
 var canvas = document.createElement('canvas');
-    context = canvas.getContext('2d');
+var context = canvas.getContext('2d');
 
 var img = new Image();
 img.src = data;
@@ -188,6 +188,7 @@ img.onload = function() {
     };
 }
 
+// 选中之后的点击事件
 var choose =document.getElementById('choose');
 choose.onclick =function() {
 
@@ -199,7 +200,7 @@ choose.onclick =function() {
       console.log(1);
     });
 
-    chrome.runtime.sendMessage([crop], function() {});
+    chrome.runtime.sendMessage([crop], function() {}); //是croparea还是crop
     parent.postMessage('removeRegion', '*');
 }, 50);
 }
