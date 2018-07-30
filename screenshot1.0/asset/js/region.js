@@ -17,6 +17,8 @@ var mw = mask.offsetWidth;
 
 //裁剪区域的宽和高
 var cw,ch;
+
+var crop;
             
 
 // 创建4个遮盖
@@ -185,6 +187,8 @@ img.onload = function() {
     // window.open(img.src);
     // console.log(img.src);
     document.body.appendChild(canvas);
+    crop = img.src;
+    return crop;
     };
 }
 
@@ -194,14 +198,12 @@ choose.onclick =function() {
     cropArea.style.border = 'none';
     setTimeout(function() {
     chrome.extension.sendRequest({greeting: "hello"}, function(response) {
-    drawcrop(response.pic);
-    console.log(response.pic);
-    cropArea.style.border = '2px dashed #fff';
+        drawcrop(response.pic);
+        // console.log(crop);
+         cropArea.style.border = '2px dashed #fff';
+        chrome.runtime.sendMessage(crop); //是croparea还是crop
     });
-
-    chrome.runtime.sendMessage( {src:response.pic}, function(e) {
-        console.log(e);
-    }); //是croparea还是crop
+    // 将drawcrop函数中的参数传出来
     parent.postMessage('removeRegion', '*');
 },50);
 }

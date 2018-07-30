@@ -55,6 +55,7 @@ var screenshot = '',
         }
         
         if(data && data.crop) {
+            // cropAndPreview(data.crop);
             cropAndPreview(data.crop);
         }
     };
