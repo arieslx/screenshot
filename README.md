@@ -23,7 +23,7 @@ git clone https://github.com/arieslx/screenshot.git
 
 ## Others
 
-this are sth wrong with the cropArea part, I need time to solve it.
+there are sth wrong with the cropArea part, I need time to solve it.
 But in region.js file, you can get the img.src in drawcrop function.
 
 ## Usage
