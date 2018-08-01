@@ -185,17 +185,17 @@ img.onload = function() {
 
     img.src = canvas.toDataURL('image/png');
     // window.open(img.src);
-    // console.log(img.src);
     document.body.appendChild(canvas);
-    crop = img.src;
-    return crop;
+    // console.log(img)
     };
 }
+
 
 // 选中之后的点击事件
 var choose =document.getElementById('choose');
 choose.onclick =function() {
     cropArea.style.border = 'none';
+    console.log(crop);
     setTimeout(function() {
     chrome.extension.sendRequest({greeting: "hello"}, function(response) {
         drawcrop(response.pic);

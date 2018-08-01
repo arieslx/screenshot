@@ -13,40 +13,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/js/background.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-            </state>
-          </provider>
+    <leaf>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="region.inject.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="region.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/region.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="region.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asset/js/region.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="203" column="39" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+            <state relative-caret-position="264">
+              <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/background.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-990">
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -77,11 +70,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-85" />
-    <option name="y" value="100" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="206" />
+    <option name="y" value="166" />
+    <option name="width" value="1517" />
+    <option name="height" value="718" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -115,7 +108,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Desktop/1click-webpage-screenshot-master" />
+    <property name="last_opened_file_path" value="D:/Desktop/jzx2svf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -143,27 +136,36 @@
       <updated>1532655263550</updated>
       <workItem from="1532655264909" duration="2194000" />
       <workItem from="1532660537114" duration="8122000" />
-      <workItem from="1532681017411" duration="7959000" />
+      <workItem from="1532681017411" duration="9517000" />
+      <workItem from="1532944052948" duration="613000" />
+      <workItem from="1532948417344" duration="1000" />
+      <workItem from="1532949370388" duration="466000" />
+      <workItem from="1532998514276" duration="618000" />
+      <workItem from="1533009561583" duration="594000" />
+      <workItem from="1533023131678" duration="599000" />
+      <workItem from="1533024651904" duration="166000" />
+      <workItem from="1533025865316" duration="612000" />
+      <workItem from="1533107027489" duration="2618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18275000" />
+    <option name="totallyTimeSpent" value="26120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="206" y="166" width="1517" height="718" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3191206" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -180,6 +182,150 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1628">
+          <caret line="74" column="30" lean-forward="true" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/background.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/asset/js/region.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4202">
+          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/region.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -231,13 +377,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/region.inject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/preview.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -268,18 +408,12 @@
     <entry file="file://$PROJECT_DIR$/preview.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/region.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/preview.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -298,23 +432,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/region.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        <state relative-caret-position="-990">
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/region.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="203" column="39" selection-start-line="203" selection-start-column="39" selection-end-line="203" selection-end-column="39" />
+        <state relative-caret-position="264">
+          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
         </state>
       </provider>
     </entry>
