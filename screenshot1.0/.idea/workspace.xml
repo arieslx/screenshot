@@ -27,8 +27,11 @@
       <file leaf-file-name="region.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/asset/js/region.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
+            <state relative-caret-position="770">
+              <caret line="203" column="44" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
+              <folding>
+                <marker date="1533111304470" expanded="true" signature="4609:4625" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,8 +39,8 @@
       <file leaf-file-name="background.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/asset/js/background.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-990">
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="44">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -145,12 +148,12 @@
       <workItem from="1533023131678" duration="599000" />
       <workItem from="1533024651904" duration="166000" />
       <workItem from="1533025865316" duration="612000" />
-      <workItem from="1533107027489" duration="2618000" />
+      <workItem from="1533107027489" duration="4041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26120000" />
+    <option name="totallyTimeSpent" value="27543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="206" y="166" width="1517" height="718" extended-state="0" />
@@ -443,15 +446,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/background.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="44">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/asset/js/region.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="189" column="6" selection-start-line="189" selection-start-column="6" selection-end-line="189" selection-end-column="6" />
+        <state relative-caret-position="770">
+          <caret line="203" column="44" selection-start-line="203" selection-start-column="44" selection-end-line="203" selection-end-column="44" />
+          <folding>
+            <marker date="1533111304470" expanded="true" signature="4609:4625" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

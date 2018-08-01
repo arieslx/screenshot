@@ -185,8 +185,10 @@ img.onload = function() {
 
     img.src = canvas.toDataURL('image/png');
     // window.open(img.src);
+    console.log(img.src);
     document.body.appendChild(canvas);
-    // console.log(img)
+    console.log(img.src);
+    // console.log(img);
     };
 }
 
@@ -195,13 +197,11 @@ img.onload = function() {
 var choose =document.getElementById('choose');
 choose.onclick =function() {
     cropArea.style.border = 'none';
-    console.log(crop);
     setTimeout(function() {
     chrome.extension.sendRequest({greeting: "hello"}, function(response) {
         drawcrop(response.pic);
-        // console.log(crop);
-         cropArea.style.border = '2px dashed #fff';
-        chrome.runtime.sendMessage(crop); //是croparea还是crop
+        cropArea.style.border = '2px dashed #fff';
+        chrome.runtime.sendMessage(crop); //
     });
     // 将drawcrop函数中的参数传出来
     parent.postMessage('removeRegion', '*');
