@@ -29,3 +29,7 @@ But in region.js file, you can get the img.src in drawcrop function.
 ## Usage
 
 get a screenshot without other tools.
+
+## General  Prep
+
+- [ ] [Creating a basic chrome extension](https://www.thepolyglotdeveloper.com/2018/09/creating-basic-chrome-extension/)
