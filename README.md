@@ -21,14 +21,21 @@ git clone https://github.com/arieslx/screenshot.git
 // or download zip
 ```
 
+## Design
+
+Program function design
+
+![Function_design](https://github.com/arieslx/screenshot/blob/master/screenshot1.0/readmefile/screenshot_design.png)
+
+
 ## Others
 
-there are sth wrong with the cropArea part, I need time to solve it.
+There are sth wrong with the cropArea part, I need time to solve it.
 But in region.js file, you can get the img.src in drawcrop function.
 
 ## Usage
 
-get a screenshot without other tools.
+Get a screenshot without other tools.
 
 ## General  Prep
 
