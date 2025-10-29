@@ -1,44 +1,50 @@
-var ext = chrome.extension.getBackgroundPage();
-if (ext.screenshot) {
-	// 创建承载的img标签
-	var blurImage = document.createElement('img');
-	blurImage.setAttribute('src',ext.screenshot);
-	blurImage.setAttribute('id','blur');
-	// document.body.appendChild(img);body可能还是空的
-	if(window.addEventListener) window.addEventListener("load", function() { document.body.appendChild(img); }, false); else window.attachEvent("onload", function() { document.body.appendChild(img); }); }
+// Access background page using chrome.runtime API instead of deprecated chrome.extension
+let screenshot = '';
 
-	var canvas = document.createElement('canvas');
-	//有点问题
-	canvas.setAttribute('id','screenshot');
-	context = canvas.getContext('2d');
-	img = new Image();
-	// stored = false;
-	getMerged =function() {
-		var mergeCanvas = document.createElement('canvas'),
-		    mergeContext = mergeCanvas.getContext('2d');
-		    
-		    mergeCanvas.width = canvas[0].width;
-		    mergeCanvas.height = canvas[0].height;
-		    
-		    mergeContext.drawImage(img, 0, 0);
-		    mergeContext.drawImage(canvas[0], 0, 0);
-		
-		return mergeCanvas.toDataURL();
-	}
+// Wait for the DOM to be loaded
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPreview);
+} else {
+    initPreview();
+}
 
-	img.onload = function() {
-	    if(this.width < window.innerWidth - 100) {
-	        var canvas1 = document.createElement('canvas');
-	        canvas1.style.margintop = 100;
+function initPreview() {
+    // 从chrome.storage获取截图而不是从background页面
+    chrome.storage.local.get(['screenshot'], function(result) {
+        if (result.screenshot) {
+            screenshot = result.screenshot;
+            
+            // 创建承载的img标签
+            const img = document.createElement("img");
+            img.src = result.screenshot;
+            img.id = "blur";
+            img.style.maxWidth = "100%";
+            img.style.height = "auto";
+            
+            // 添加到页面
+            document.body.appendChild(img);
+        } else {
+            // Fallback: Try to create a basic error message
+            const errorMsg = document.createElement("p");
+            errorMsg.textContent = "Failed to load screenshot. Please try again.";
+            document.body.appendChild(errorMsg);
+        }
+    });
+}
 
-	    }
-	    canvas1.setAttribute({
-	    	width : this.width,
-	    	height : this.height
-	    })
-	    canvas1.style.backgroundimage = "url(" + ext.screenshot + ")";
-	    document.body.appendChild(canvas);
-	    canvas.sketch();
-	}
-	img.src = ext.screenshot;
-	
+// 移除重复的图像处理逻辑，避免显示两张图片
+// 只在DOMContentLoaded事件中处理图像显示
+
+// Fixed function - now properly returns the screenshot from storage
+const getMerged = function () {
+    // 从storage中获取图像数据
+    return new Promise((resolve) => {
+        chrome.storage.local.get(['screenshot'], function(result) {
+            if (result.screenshot) {
+                resolve(result.screenshot);
+            } else {
+                resolve(null);
+            }
+        });
+    });
+};
