@@ -30,13 +30,12 @@ Program function design
 
 ## Others
 
-There are sth wrong with the cropArea part, I need time to solve it.
-But in region.js file, you can get the img.src in drawcrop function.
+Just get a screenshot tool demo.
 
 ## Usage
 
 Get a screenshot without other tools.
 
-## General  Prep
+## General Prep
 
 - [ ] [Creating a basic chrome extension](https://www.thepolyglotdeveloper.com/2018/09/creating-basic-chrome-extension/)
